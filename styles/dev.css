@@ -12,6 +12,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin:0px 200px;
 }
 nav li {
   list-style: none;
@@ -43,4 +44,15 @@ nav li {
   font-weight: 700;
   line-height: normal;
   padding:18px 35px 19px 36px;
+}
+/* header related styles */
+.banner{
+  padding:30px 30px 30px 150px;
+  display:flex;
+  align-items: center;
+}
+.profile_pic{
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
 }
