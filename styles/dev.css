@@ -224,6 +224,7 @@ footer {
   margin-top: 131px;
   display: flex;
   gap: 117px;
+  height: auto;
 }
 .contact {
   padding-top: 130px;
@@ -251,8 +252,29 @@ footer {
 .contact_link {
   margin-right: 24px;
 }
-.input {
-  border-radius: 5px;
-  background: var(--White-Color, #fff);
 
+.contact {
+  width: 50%;
+}
+.message {
+  width: 50%;
+  padding-bottom: 149px;
+}
+.message_form label {
+  display: block;
+  margin-bottom: 24px;
+}
+label input[type="email"],
+label input[type="text"],
+label textarea {
+  padding: 18px 300px 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0px;
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
