@@ -113,17 +113,68 @@ main {
   justify-content: space-around;
 }
 .about-info {
-  color:#757575;
+  color: #757575;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
 }
-.info-title{
-  font-size:15px;
-  font-weight:250px;
+.info-title {
+  font-size: 15px;
+  font-weight: 250px;
 }
 .info-description {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
+}
+/* skill styles */
+.skill-container {
+  display: flex;
+  margin-top: 50px;
+}
+#lala {
+  margin-bottom: 30px;
+}
+.skill {
+  width: 267px;
+  height: 415px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-right: 24px;
+}
+.skill-pic {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  padding: 30px 193px 0px 30px;
+}
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.skill-desc {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 33px 30px 33px;
+
+}
+.do-description {
+  width: 909px;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 0px auto;
+}
+.what-i-do {
+  height: 4256px;
 }
