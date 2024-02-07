@@ -7,6 +7,9 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+main section {
+  margin-top: 130px;
+}
 .section_title {
   color: #181818;
   text-align: center;
@@ -164,7 +167,6 @@ main {
   font-size: 20px;
   font-weight: 400;
   padding: 0px 33px 30px 33px;
-
 }
 .do-description {
   width: 909px;
@@ -175,6 +177,82 @@ main {
   line-height: 30px; /* 166.667% */
   margin: 0px auto;
 }
-.what-i-do {
-  height: 4256px;
+
+/* resume section styles */
+.column_wrapper {
+  display: flex;
+  gap: 70px;
+}
+.column_header {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.section_title {
+  margin-bottom: 113px;
+}
+.column_content {
+  margin-top: 30px;
+}
+.content_title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+}
+.content_subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.content_description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 0px;
+}
+.download_cv {
+  text-align: center;
+  margin-top: 69px;
+}
+/* footer styles */
+footer {
+  background: #fff8f3;
+  margin-top: 131px;
+  display: flex;
+  gap: 117px;
+}
+.contact {
+  padding-top: 130px;
+  padding-left: 230px;
+}
+.message {
+  padding-top: 130px;
+  padding-right: 230px;
+}
+.ek_title {
+  color: #181818;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.contact_description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 562px;
+  margin-bottom: 30px;
+}
+.contact_link {
+  margin-right: 24px;
+}
+.input {
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+
 }
